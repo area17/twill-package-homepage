@@ -1,0 +1,23 @@
+{
+  "name": "area17/twill-package-homepage",
+  "description": "A twill package",
+  "homepage": "https://github.com/area17/twill-package-homepage",
+  "license": "Apache-2.0",
+  "require": {
+    "area17/twill": "^2.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "TwillHomepage\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "TwillHomepage\\TwillHomepageServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
